@@ -1,0 +1,28 @@
+
+  .hero-section {
+    padding-top: 240px;
+    height: 270px;
+    background-image: url("https://images-eu.ssl-images-amazon.com/images/G/31/img24/Consumables/SVD/Feb24/GW/Unrec_PC_3000._CB583595285_.jpg");
+    background-size: cover;
+  }
+  
+  .shop-section {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: #f3f3f3;
+  }
+  
+  .card-container {
+    border: 1px solid rgb(185, 185, 185);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    flex-basis: 20%;
+    width: fit-content;
+  }
+  
+  .card-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+  }

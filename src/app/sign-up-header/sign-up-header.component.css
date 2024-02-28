@@ -1,0 +1,13 @@
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    position: sticky;
+}
+
+.centered img{
+    max-width: 10em;
+    max-height: 10em;
+}

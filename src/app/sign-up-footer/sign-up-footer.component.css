@@ -1,0 +1,29 @@
+.copyright {
+    font-size: 0.75em;
+}
+.foot-content {
+    width: 20em;
+    display: flex;
+    font-size: 0.75em;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.anchor-tag{
+    color: var(--anchor-color);
+    text-decoration: none;
+}
+
+.anchor-tag:hover{
+    color: var(--hover-color);
+    text-decoration: underline;
+}
+
+.reg-footer {
+    margin-top: 2em; /* Adjust margin-top to push footer to the bottom */
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,1 +1,151 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary-color: #21216c; /* blue */
+    --secondary-color:  #2b4da2;
+    --tertiary-color: #525252;
+    --background-color: #ffffff;
+    --border-color: #000000; 
+    --wrapper-color:  #f9f9f9;
+    --anchor-color:#5b7a8f;
+    --hover-color:#C7511F;
+    --button-hover:#21216cac;
+  }
+  .window {
+    margin: auto;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    min-height: 500px;
+    min-width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.window .container{
+    padding: 0 15% 0 15%;
+    justify-content: center;
+    width: 22em;
+    margin: 0 auto; /* Centering the container horizontally */
+}
+
+.pd-1 {
+    padding: 0.5rem;
+}
+
+.pd-t-1 {
+    padding-top: 0.5rem;
+}
+
+.pd-b-1 {
+    padding-bottom: 0.5rem;
+}
+
+.pd-l-1 {
+    padding-left: 0.5rem;
+}
+
+.pd-r-1 {
+    padding-right: 0.5rem;
+}
+
+.pd-block-1 {
+    padding-block: 0.5rem;
+}
+
+.pd-inline-1 {
+    padding-inline: 0.5rem;
+}
+
+.pd-2 {
+    padding: 1rem;
+}
+
+.pd-t-2 {
+    padding-top: 1rem;
+}
+
+.pd-b-2 {
+    padding-bottom: 1rem;
+}
+
+.pd-l-2 {
+    padding-left: 1rem;
+}
+
+.pd-r-2 {
+    padding-right: 1rem;
+}
+
+.pd-block-2 {
+    padding-block: 1rem;
+}
+
+.pd-inline-2 {
+    padding-inline: 1rem;
+}
+
+.pd-3 {
+    padding: 1.5rem;
+}
+
+.pd-t-3 {
+    padding-top: 1.5rem;
+}
+
+.pd-b-3 {
+    padding-bottom: 1.5rem;
+}
+
+.pd-l-3 {
+    padding-left: 1.5rem;
+}
+
+.pd-r-3 {
+    padding-right: 1.5rem;
+}
+
+.pd-block-3 {
+    padding-block: 1.5rem;
+}
+
+.pd-inline-3 {
+    padding-inline: 1.5rem;
+}
+
+.inline { 
+    display: inline;
+}
+
+.rating-stars i{
+    color: orange;
+}
+
+.text-xxl {
+    font-size: xx-large;
+}
+
+.text-md {
+    font-size: medium;
+}
+
+.text-sm {
+    font-size: small;
+}
+
+button{
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    color: var(--background-color);
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+
+button:hover{
+    background-color: var(--button-hover);
+}
+
+
+
+
+

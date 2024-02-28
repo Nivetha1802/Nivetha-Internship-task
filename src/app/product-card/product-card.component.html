@@ -1,0 +1,38 @@
+<div class="card-container">
+    <div class="image-box">
+      <img [src]="product.imageUrl" alt="{{ product.name }}" />
+    </div>
+    <div class="content-box">
+      <div class="product-name">
+        <h4 class="pd-1" (click)="navigateToProductDetails(product.id)">
+          {{ product.name }}
+        </h4>
+      </div>
+      <div class="pd-l-1">
+        <span class="rating-stars">
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </span>
+        <span class="rating-details">
+          <i class="fa-solid fa-chevron-down"></i>
+        </span>
+        <span class="review-number">
+          <a href="" class="anchor-tag">12,215</a>
+        </span>
+      </div>
+      <div class="pd-1">
+        <div class="inline">
+          <sup>{{ product.currency }}</sup><span class="text-xxl">{{ product.price }}</span>
+        </div>
+        <div class="inline">
+          <span class="text-sm">M.R.P: {{ product.mrp }}</span>
+        </div>
+        <div class="inline">
+          <span class="text-md">{{ product.discount }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
