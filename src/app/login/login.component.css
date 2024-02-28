@@ -1,0 +1,155 @@
+.login-container {
+    display: flex;
+}
+
+.login-box {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color); /* 1px solid black border */
+    border-radius: 5px;
+    text-align: center;
+    padding: 1.5em;
+    margin:0 auto;
+}
+
+.login-box .sign-in-class{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-box .sign-in-class .social-icons {
+    display: flex;
+}
+
+.login-box .sign-in-class .social-icons i {
+    margin-left: 2em;
+}
+
+.login-box .sign-in{
+    margin-top: -1%;
+    text-align: left;
+}
+
+.login-box input {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--secondary-color);
+    border-radius: 3px;
+    margin-top: -6%;
+    margin-bottom: 1em;
+    padding: 0.75em;
+}
+
+.login-box button {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.login-box button:hover{
+    background-color: var(--button-hover);
+}
+
+.login-box .terms{
+    font-size: 0.9em;
+}
+
+.login-box .help{
+    font-size: 0.75rem;
+    text-align: left;
+}
+
+.rotate {
+    -moz-transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+}
+.rotate.down {
+    -moz-transform:rotate(90deg);
+    -webkit-transform:rotate(90deg);
+    transform:rotate(90deg);
+}
+
+.login-box .content{
+    margin: 0.95em;
+}
+
+.login-box .help{
+    margin-bottom: 2em;
+}
+
+.login-box .work{
+    margin-top: 2em;
+    text-align: left;
+    width: 100%;
+    font-size: 0.75em;
+}
+
+.wrapper {
+    margin-top: 1.5em;
+    display: flex;
+    align-items: center;
+    color: var(--tertiary-color);
+    font-size: 0.75em;
+}
+
+.line {
+    flex: 1;
+    border-bottom: 1px solid var(--tertiary-color);
+}
+
+.content1 {
+    padding: 0 10px; /* Adjust padding as needed */
+}
+
+.new-acc{
+    margin: auto;
+    width: 4 0%;
+
+}
+.new-acc button{
+    margin-top: 1rem;
+    box-sizing: border-box;
+   
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    color: var(--background-color);
+    cursor: pointer;
+}
+
+.password-container{
+    justify-content: center;
+    width: 18rem;
+    margin: 0 auto; /* Centering the container horizontally */
+}
+
+.pass{
+    text-align: left;
+    font-size: 1.75rem;
+}
+.pass-content{
+    text-align: left;
+    margin-top: -5%;
+    font-size: 0.80em;
+}
+
+div .custom {
+    justify-content: center;
+    width: 100%;
+}
+.c1{
+    width: 120%;
+    font-size: 0.75rem;
+    color: var(--tertiary-color);
+    margin-top: -3%;
+}
