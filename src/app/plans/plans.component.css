@@ -1,0 +1,27 @@
+.plan-list{
+    background-color: rgba(0,92,144,50%);
+    padding: 1em;
+    margin: 2% 8% 2% 8%;
+    border-style: line;
+    border-color: #005C90;
+    border-radius: 20px;
+}
+.plan-list-title{
+    display:flex;
+    align-items: center;
+    width: fit-content;
+    max-width:100%;
+    gap: 0.5em;
+    padding: 0.5em;
+    background-color: white;
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+.plan-list-notes{
+    position:relative;
+    background-color: white;
+    color: rgba(0,0,0,30%);
+    border-radius: 20px;
+    padding: 1em;
+    
+}

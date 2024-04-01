@@ -1,0 +1,28 @@
+
+h3{
+    width:fit-content;
+    background-color:black;
+    border-style: solid;
+    border-radius:20px;
+    color: white;
+    padding:1em;
+  }
+  .members-form{
+    display:flex;
+    gap:3%;
+    padding:1em;
+  }
+  input {
+      width:16%;
+      border: 1px solid lightgrey;
+      box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Adjust values for desired shadow effect */
+  }
+  .member-det-head{
+    display:flex;
+    justify-content:space-between;
+    padding:1em;
+  }
+  .member-det{
+    margin: 2% 8% 2% 8%;
+    border-top:1px solid lightgrey;
+  }

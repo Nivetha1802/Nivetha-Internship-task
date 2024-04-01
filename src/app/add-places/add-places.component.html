@@ -1,0 +1,27 @@
+
+<div class="add-places">
+    <div class="add-places-head">
+
+        <i class="fa-solid fa-caret-down"></i>
+        <h3>Places to visit</h3>
+    </div>
+
+
+    <div class="add-places-form">
+        <input type="text" id="addplaces" name="addplaces" placeholder="Add place" class="form-control" [(ngModel)]="trip.addplaces" required>
+        <h3><span class="material-symbols-outlined">
+                add_notes
+            </span></h3>
+        <h3><i class="fa-solid fa-list-check"></i></h3>
+
+        <button (click)="addComponent()"><span class="material-symbols-outlined">
+                add
+            </span></button>
+        
+
+        </div>    
+    </div>
+
+<div *ngFor="let component of components; let i = index">
+    <app-child-places (remove)="removeComponent(i)"></app-child-places>
+</div>

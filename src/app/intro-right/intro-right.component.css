@@ -1,0 +1,13 @@
+.intro-right{
+    display:flex;
+    align-items: center;
+    gap:1em;
+    background-color:black;
+    color:white;
+    border-radius: 50px 0 0 50px ;
+    height:15vh;
+    width:50%;
+    margin:1em;
+    padding:1em;
+    margin-left: 48%;
+  }

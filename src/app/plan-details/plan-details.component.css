@@ -1,0 +1,36 @@
+.destination-details{
+    padding: 0.5em;
+    width:70%;
+    height: 5em;
+    background-image: url("./../../assets/bg3.jpg");
+    margin: 1em;
+    border-radius: 25px;
+    
+}
+.plan-details-expenses{
+    padding: 0.5em;
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+.plan-details{
+    padding: 0.5em;
+    margin: 2% 8% 2% 8%;
+    background-color: rgba(0,92,144,50%);
+    display:flex;
+    gap: 2em;
+    border-radius: 20px;
+}
+button{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    white-space: nowrap;
+    height: fit-content;
+    border-color: white;
+}
+.destination-details h2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

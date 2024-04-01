@@ -1,0 +1,49 @@
+<app-headers [heading]="'Your Plan'" [link]="'Home'"></app-headers>
+
+
+<div class="plan-input">
+    <div class="plan-input-all">
+    <div class="plan-input-title">
+    <h2> Let's Get Started !!! </h2>
+    </div>
+    <div class="plan-input-form">
+        <form #postDataForm="ngForm" (ngSubmit)="submitData(postDataForm)">
+            
+              <label for="origin">Origin</label>
+              <select name="origin" id="origin" class="form-control" [(ngModel)]="trip.origin" required>
+                  <option value="India">India</option>
+     <option value="France">France</option>
+     <option value="Australia">Australia</option>
+     <option value="Japan">Japan</option>
+              </select>
+              <input type="Date" id="departure-date" name="departure-date" class="form-control" [(ngModel)] ="trip.departuredate" required><br>
+              <label for="destination">Destination</label>
+              <select name="destination" id="destination" class="form-control" [(ngModel)]="trip.destination" required>
+                  <option value="India">India</option>
+     <option value="France">France</option>
+     <option value="Australia">Australia</option>
+     <option value="Japan">Japan</option>
+              </select>
+              <input type="Date" id="arrival-date" name="arrival-date" class="form-control" [(ngModel)]="trip.arrivaldate" required><br>
+              <label for="modeoftransport">Mode Of Transport</label>
+              <select name="modeoftransport" id="modeoftransport" class="form-control" [(ngModel)]="trip.modeoftransport" required>
+                  <option value="Car">Car</option>
+     <option value="Bus">Bus</option>
+     <option value="Train">Train</option>
+     <option value="Bike">Bike</option>
+                  <option value="Walk">Walk</option>
+                  <option value="Plane">Plane</option>
+              </select><br>
+              <label for="durationoftrip">Duration Of the Trip</label>
+              <input type="text" id="durationoftrip" name="durationoftrip" class="form-control" [(ngModel)]="trip.durationoftrip" required>
+        
+            </form>
+    </div>  
+    </div>
+    </div>
+
+    <app-members-det [trip]="trip" > </app-members-det>
+    <app-add-places [trip]="trip" ></app-add-places>
+    <app-add-notes [trip]="trip" > </app-add-notes>
+    <app-budget [trip]="trip" ></app-budget>
+    <app-buttons> </app-buttons>

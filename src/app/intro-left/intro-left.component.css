@@ -1,0 +1,25 @@
+.intro-left1{
+    display:flex;
+    align-items: center;
+    gap:1em;
+    background-color:black;
+    color:white;
+    border-radius: 0 50px 50px 0;
+    height:15vh;
+    width:50%;
+    margin:1em;
+    padding:1em;
+  }
+ 
+  .intro-left2{
+    display:flex;
+    align-items: center;
+    gap:1em;
+    background-color:black;
+    color:white;
+    border-radius: 0 50px 50px 0;
+    height:15vh;
+    width:50%;
+    margin:1em;
+    padding:1em;
+  }

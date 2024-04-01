@@ -1,0 +1,42 @@
+button{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    white-space: nowrap;
+    height: fit-content;
+    border-color: white;
+padding:1em;
+}
+.budget-title{
+    display:flex;
+    align-items: center;
+    max-width:100%;
+    width: fit-content;
+    gap: 0.5em;
+    padding: 0.5em;
+    background-color: black;
+    margin-bottom: 1em;
+    border-radius: 20px;
+color: white;
+}
+ 
+.budget{
+  padding:1em;
+  margin: 2% 8% 2% 8%;
+  border-top: 1px solid lightgrey;
+}
+input{
+  border:1px solid lightgrey;
+  width:70%;
+  border-radius:20px;
+  padding:1em;
+  margin-bottom: 1em;
+/*   margin:2%; */
+}
+#budget-value::placeholder{
+  color: lightgrey;
+}
+.budget-input{
+  border:1px solid lightgrey;
+  padding:1em;
+}

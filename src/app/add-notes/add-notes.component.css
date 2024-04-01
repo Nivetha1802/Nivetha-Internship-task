@@ -1,0 +1,30 @@
+.add-notes-head{
+    padding:1em;
+    background-color:black;
+    color:white;
+    border-radius:20px;
+    width:fit-content;
+    height:fit-content;
+    display:flex;
+    gap:1em;
+    margin:1em
+  }
+  .add-notes{
+    margin: 2% 8% 2% 8%;
+    border-top: 1px solid lightgrey;
+  }
+  input{
+    border:1px solid lightgrey;
+    width:70%;
+    border-radius:20px;
+    padding:1em;
+    margin:1em;
+  }
+  #addnotes::placeholder{
+    color: lightgrey;
+  }
+  .add-notes-form{
+    display:flex;
+    gap:3%;
+    align-items:center;
+  }

@@ -1,0 +1,68 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../assets/bg3.jpg);
+    background-size: 100%;
+    padding: 1% 2% 17% 2%;
+    min-width:640px;
+}
+
+.title {
+    color: white;
+    font-family: garamond;
+    font-size: larger;
+}
+
+.navbar {
+    margin-right: 2%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.slogan{
+    padding: 10px;
+    text-align: center;
+    
+}
+button{
+    border-radius: 25px;
+    background-color: #005C90;
+    color: white;
+    white-space: nowrap;
+    height: fit-content;
+    border-color: white;	
+    padding:1em 3em 1em 3em;
+}
+.create-button{
+    text-align:center;
+    margin: 2% 8% 2% 8%;
+}
+button:hover {
+    background-color: white; 
+    border-color: black;
+    color:black;
+}

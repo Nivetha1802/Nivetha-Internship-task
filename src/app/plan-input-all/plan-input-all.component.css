@@ -1,0 +1,13 @@
+.plan-input-form{
+    margin: 0% 8% 0% 8%;
+  }
+input, select{
+    border:1px solid lightgrey;
+    width:20%;
+    height:fit-content;
+    padding:0.5em;
+    margin:1em;
+  }
+.plan-input-all{
+    margin: 0% 2% 0% 2%
+}
